@@ -1,0 +1,48 @@
+2023-05-26 09:33:28.111015: [FETCHING ANALYTE DATA] >> ANALYTE:Hemoglobin
+2023-05-26 09:33:29.280955: Data: 122:Hemoglobin:13.0
+2023-05-26 09:33:30.420883: Data: 164:Hemoglobin:9.0
+2023-05-26 09:33:31.518460: Data: 182:Hemoglobin:None
+2023-05-26 09:33:32.800856: Data: 200:Hemoglobin:9.0
+2023-05-26 09:33:34.092568: Data: 218:Hemoglobin:9.0
+2023-05-26 09:40:08.306990: [FETCHING ANALYTE DATA] >> ANALYTE:HGB
+2023-05-26 09:40:09.421713: Data: 8:HGB:None
+2023-05-26 09:40:10.533344: Data: 244:HGB:None
+2023-05-26 09:40:11.728955: Data: 273:HGB:10.7
+2023-05-26 09:41:45.296874: [FETCHING ANALYTE DATA] >> ANALYTE:HGB
+2023-05-26 09:41:46.478202: Data: 8:HGB:None
+2023-05-26 09:41:47.623678: Data: 244:HGB:None
+2023-05-26 09:41:48.723243: Data: 273:HGB:10.7
+2023-05-26 09:42:42.742248: [FETCHING ANALYTE DATA] >> ANALYTE:HGB
+2023-05-26 09:42:43.754738: Data: 8:HGB:None
+2023-05-26 09:42:44.780239: Data: 244:HGB:None
+2023-05-26 09:42:45.786241: Data: 273:HGB:10.7
+2023-05-26 09:43:10.710713: [FETCHING ANALYTE DATA] >> ANALYTE:HGB
+2023-05-26 09:43:11.828746: Data: 8:HGB:None
+2023-05-26 09:43:12.932732: Data: 244:HGB:None
+2023-05-26 09:43:14.125505: Data: 273:HGB:10.7
+2023-05-26 09:44:20.562214: [FETCHING ANALYTE DATA] >> ANALYTE:MCV
+2023-05-26 09:44:21.562774: Data: 28:MCV:None
+2023-05-26 09:44:22.605409: Data: 125:MCV:83.0
+2023-05-26 09:44:23.587546: Data: 167:MCV:None
+2023-05-26 09:44:24.694023: Data: 185:MCV:None
+2023-05-26 09:44:25.768501: Data: 203:MCV:None
+2023-05-26 09:44:26.867463: Data: 221:MCV:None
+2023-05-26 09:44:27.908169: Data: 247:MCV:None
+2023-05-26 09:44:28.981667: Data: 276:MCV:83.0
+2023-05-26 09:44:29.448301: [CREATE DATA ELEMENT] >> {"httpStatus":"Created","httpStatusCode":201,"status":"OK","response":{"responseType":"ObjectReport","uid":"WQ7upcDjzqR","klass":"org.hisp.dhis.dataelement.DataElement","errorReports":[]}}
+2023-05-26 09:44:29.887113: [CREATE ORGANISATION UNIT] >> {"httpStatus":"Conflict","httpStatusCode":409,"status":"ERROR","message":"One or more errors occurred, please see full details in import report.","response":{"responseType":"ObjectReport","uid":"RjTtdiXFwwT","klass":"org.hisp.dhis.organisationunit.OrganisationUnit","errorReports":[{"message":"Property `code` with value `LAB_TEST` on object LAB_TEST [RjTtdiXFwwT] (OrganisationUnit) already exists on object O8DpCLQSbKF","mainKlass":"org.hisp.dhis.organisationunit.OrganisationUnit","errorCode":"E5003","mainId":"O8DpCLQSbKF","errorProperty":"code","errorProperties":["code","LAB_TEST","LAB_TEST [RjTtdiXFwwT] (OrganisationUnit)","O8DpCLQSbKF"]}]}}
+2023-05-26 09:44:30.124054: [FETCHING DATA-ELEMENT INFO] >> {"pager":{"page":1,"total":1,"pageSize":50,"pageCount":1},"dataElements":[{"displayName":"AVG_HGB","id":"WQ7upcDjzqR"}]}
+2023-05-26 09:44:30.368049: [FETCHING ORG-UNIT INFO] >> {"pager":{"page":1,"total":1,"pageSize":50,"pageCount":1},"organisationUnits":[{"displayName":"Sierra Leone","id":"ImspTQPwCqd"}]}
+2023-05-26 09:44:30.633975: [FETCHING ORG-UNIT INFO] >> {"pager":{"page":1,"total":1,"pageSize":50,"pageCount":1},"organisationUnits":[{"displayName":"LAB_TEST","id":"O8DpCLQSbKF"}]}
+2023-05-26 09:44:30.634341: [CREATE DATA SET] >>  1 DataElement(s) added to DataSet AVG_LAB_TEST
+2023-05-26 09:44:30.634488: [CREATE DATA SET] >>  WQ7upcDjzqR DataElement added to DataSet AVG_LAB_TEST
+2023-05-26 09:44:30.634543: [CREATE DATA SET] >>  ImspTQPwCqd OrgUnit added to DataSet AVG_LAB_TEST
+2023-05-26 09:44:30.634577: [CREATE DATA SET] >>  O8DpCLQSbKF OrgUnit added to DataSet AVG_LAB_TEST
+2023-05-26 09:44:31.057284: [CREATE DATA SET] {"httpStatus":"Created","httpStatusCode":201,"status":"OK","response":{"responseType":"ObjectReport","uid":"HCLslM11wkM","klass":"org.hisp.dhis.dataset.DataSet","errorReports":[]}}
+2023-05-26 09:44:31.312845: [FETCHING DATA-SET INFO] >> {"pager":{"page":1,"total":2,"pageSize":50,"pageCount":1},"dataSets":[{"displayName":"AVG_LAB_TEST","id":"fAwI5M5Ciwi"},{"displayName":"AVG_LAB_TEST","id":"HCLslM11wkM"}]}
+2023-05-26 09:44:31.313264: [FETCHING DATA-SET ID] >> fAwI5M5Ciwi
+2023-05-26 09:44:31.554557: [FETCHING ORG-UNIT INFO] >> {"pager":{"page":1,"total":1,"pageSize":50,"pageCount":1},"organisationUnits":[{"displayName":"LAB_TEST","id":"O8DpCLQSbKF"}]}
+2023-05-26 09:44:31.555385: [FETCHING ORG-UNIT ID] >> O8DpCLQSbKF
+2023-05-26 09:44:31.555563: [PROCESSING DATA] >> Converting dataelement name to data element id
+2023-05-26 09:44:31.819363: [FETCHING DATA-ELEMENT INFO] >> {"pager":{"page":1,"total":1,"pageSize":50,"pageCount":1},"dataElements":[{"displayName":"AVG_HGB","id":"WQ7upcDjzqR"}]}
+2023-05-26 09:44:32.141412: [INSERT DATA-VALUE-SET] >> {"httpStatus":"OK","httpStatusCode":200,"status":"OK","message":"Import was successful.","response":{"responseType":"ImportSummary","status":"SUCCESS","importOptions":{"idSchemes":{},"dryRun":false,"async":false,"importStrategy":"CREATE_AND_UPDATE","mergeMode":"REPLACE","reportMode":"FULL","skipExistingCheck":false,"sharing":false,"skipNotifications":false,"skipAudit":false,"datasetAllowsPeriods":false,"strictPeriods":false,"strictDataElements":false,"strictCategoryOptionCombos":false,"strictAttributeOptionCombos":false,"strictOrganisationUnits":false,"requireCategoryOptionCombo":false,"requireAttributeOptionCombo":false,"skipPatternValidation":false,"ignoreEmptyCollection":false,"force":false,"firstRowIsHeader":true,"skipLastUpdated":false,"mergeDataValues":false,"skipCache":false},"description":"Import process completed successfully","importCount":{"imported":1,"updated":0,"ignored":0,"deleted":0},"conflicts":[],"dataSetComplete":"2023-05-26"}}
