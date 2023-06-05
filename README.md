@@ -133,7 +133,7 @@ Note: The module has to be externalized in client side of gnu-health, that can b
 <!-- CONTACT -->
 ## Contributors
 
-Gihub - [@yassirH9](https://github.com/yassirH9)
+Github - [@yassirH9](https://github.com/yassirH9)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
