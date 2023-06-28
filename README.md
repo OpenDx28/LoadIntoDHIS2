@@ -127,6 +127,13 @@ Note: The module has to be externalized in client side of gnu-health, that can b
   <img src="./assets/superuser_authorities.png" width="50%" title="hover text">
 </p>
 
+* In section __Other authorities__ find __Available system authorities__ and select __All (Full authotity)__ and Save Changes.
+
+<p align="center">
+  <img src="./assets/superuser_authorities_2.jpg" width="50%" title="hover text">
+</p>
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
